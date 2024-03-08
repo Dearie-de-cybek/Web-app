@@ -1,0 +1,48 @@
+:root {
+  --color-purple-100: rgb(174, 124, 243);
+  --color-purple-200: rgb(131, 56, 236);
+  --color-purple-200-shadow: rgba(131, 56, 236, 0.15);
+  --color-purple-400: rgb(97, 19, 205);
+  --color-purple-400-light: rgba(131, 56, 236, 0.3);
+  --color-blue-500: rgb(58, 134, 255);
+  --color-blue-100: rgba(37, 124, 255, 0.349);
+  --color-contrast: rgb(47, 47, 47);
+  --color-contrast: rgba(131, 56, 236, 0.025);
+  --color-dark-light: rgb(69, 69, 69);
+  --color-dark-light: rgb(18, 18, 18);
+  --color-dark-light-shadow: rgba(255, 255, 255, 0.02);
+  --color-white: rgb(255, 255, 255);
+  --color-black: rgb(0, 0, 0);
+  --red: rgba(255, 0, 0, 0.7);
+  --color-off-white: #ececec;
+
+  --color-purple-500: rgb(36, 32, 80);
+  --color-purple-600: rgb(24, 21, 51);
+  --color-purple-600: rgb(22, 20, 48);
+
+  --primary-landing-light: #242050;
+  --primary-landing-darker: #181533;
+
+  --header-lanidng-background: linear-gradient(
+      0deg,
+      var(--header-lanidng-background),
+      var(--header-lanidng-background)
+    ),
+    linear-gradient(
+      125deg,
+      rgba(30, 27, 75, 0.2) 1%,
+      rgba(27, 24, 63, 0.2) 16.66%
+    ),
+    radial-gradient(
+      34% 54% at 80.4% 77%,
+      rgba(89, 73, 255, 0.26) 0%,
+      rgba(23, 20, 57, 0.26) 100%
+    );
+  /* warning: gradient uses a rotation that is not supported by CSS and may not behave as expected */
+
+  /* --outer-circle-box-shadow: 27.042253494262695px -29.746479034423828px 30.01690101623535px -20.28169059753418px
+    #8338eceb inset;
+
+  --inner-circle-box-shadow: -28.394365310668945px 29.746479034423828px
+    29.746479034423828px -13.521126747131348px #257cff59 inset; */
+}
